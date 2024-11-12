@@ -1,0 +1,63 @@
+body {
+    background-image: url("space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: right bottom;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8; 
+}
+
+
+#container {
+    background-color: #9A7E6F;
+    width: 30%;
+    margin-top: 300px;
+    padding: 20px;
+    margin-left: 800px;
+    opacity: 0.9; 
+    border: 3px solid #54473F;
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    color: #FFF0D1;
+    position: relative;
+    z-index: 2;
+}
+
+h3 {
+    font-family: "Emilys Candy", serif;
+    font-size: 20px;
+}
+
+#guess {
+    padding: 10px;
+    width: 40%;
+    font-family: "Emilys Candy", serif;
+    font-size: 15px;
+    border: none;
+}
+
+#btn {
+    background-color: #664343;
+    font-size: 15px;
+    font-family: "Emilys Candy", serif;
+    color: #FFF0D1;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    z-index: 2;
+}
